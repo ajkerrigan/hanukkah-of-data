@@ -1,0 +1,5 @@
+#!vd -p
+{"longname": "open-file", "input": "noahs-customers.csv", "keystrokes": "o"}
+{"sheet": "noahs-customers", "col": "name", "row": "", "longname": "phone-keys-for-col", "input": "", "comment": ""}
+{"sheet": "noahs-customers", "col": "", "row": "", "longname": "select-expr", "input": "phone.replace('-','') in name_phonekeys", "keystrokes": "z|", "comment": "select rows matching Python expression in any visible column"}
+{"sheet": "noahs-customers", "col": "", "row": "", "longname": "dup-selected", "input": "", "keystrokes": "\"", "comment": "open duplicate sheet with only selected rows"}
